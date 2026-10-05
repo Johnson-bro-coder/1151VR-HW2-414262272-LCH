@@ -2,7 +2,7 @@
 
 ## 一、專案截圖
 
-### 截圖 1：2D 人物圖片匯入與 Sprite 設定
+### 截圖 1：2D 人物圖片匯入
 請AI生成的照片
 ![截圖1](./Assets/Sprites/Player.png) 
 
