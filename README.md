@@ -3,10 +3,13 @@
 ## 一、專案截圖
 
 ### 截圖 1：2D 人物圖片匯入與 Sprite 設定
-![截圖1](./Assets/Sprites/Player.png) 請AI生成的圖片
+請AI生成的照片
+![截圖1](./Assets/Sprites/Player.png) 
+
 
 ### 截圖 2：場景配置與路徑節點
-<img width="1280" height="612" alt="image" src="https://github.com/user-attachments/assets/47e2fc8b-bcd4-4295-a75e-510e2ea315d9" />
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/91abf849-5d0b-4e11-9557-b20b69192a2c" />
+
 
 
 ---
@@ -24,7 +27,7 @@
 ## 四、說明製作流程和相關操作
 
 ### 1. 2D 專案與角色圖片載入
-- 使用 Unity 2D 專案架構**。
+- 使用 Unity 2D 專案架構。
 - 將 2D 角色圖片放入 `Assets/Sprites/Player.png`，並在 Inspector 視窗中將 **Texture Type** 設定為 `Sprite (2D and UI)`，確保可以在 2D 遊戲場景中正確渲染。
 
 ### 2. 實作平走、上跳與下跳終點（使用 Vector 與 Array 陣列）
@@ -36,4 +39,4 @@
   - 索引 3：向下跳落到達終點 `(5, -1.8, 0)`
 - **位移演算法**：使用 `Vector3.MoveTowards()` 配合 `Time.deltaTime` 。
 - **節點判定**：透過 `Vector3.Distance(transform.position, targetPos) < 0.05f` 判斷是否抵達目標點，抵達後自動將陣列索引遞增 `currentIndex++` 移向下一站。
-- **便捷重播功能**：加入按鍵偵測，按下鍵盤 <kbd>R</kbd> 或 <kbd>Space</kbd> 即可隨時重置回起點重新演示，方便錄影。
+- **重播功能**：加入按鍵偵測，按下鍵盤 <kbd>R</kbd> 或 <kbd>Space</kbd> 即可隨時重置回起點重新演示，方便錄影。
