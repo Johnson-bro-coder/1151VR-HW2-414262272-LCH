@@ -2,15 +2,8 @@
 
 ## 一、專案截圖
 
-### 截圖 1：2D 人物圖片匯入
-請AI生成的照片
-![截圖1](./Assets/Sprites/Player.png) 
-
-
-### 截圖 2：場景配置與路徑節點
+### 場景配置與路徑節點
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/91abf849-5d0b-4e11-9557-b20b69192a2c" />
-
-
 
 ---
 
