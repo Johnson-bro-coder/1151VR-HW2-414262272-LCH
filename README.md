@@ -20,7 +20,7 @@
 ---
 
 ## 三、YouTube 連結
-- [請在此貼上你的 YouTube 影片網址，例如：https://youtu.be/xxxxxx]
+- [https://youtu.be/udeUsE2yahY](https://youtu.be/udeUsE2yahY)
 
 ---
 
